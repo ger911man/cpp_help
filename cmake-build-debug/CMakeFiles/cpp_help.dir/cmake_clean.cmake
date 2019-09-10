@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp_help.dir/main.cpp.o"
+  "CMakeFiles/cpp_help.dir/h_string/h_string.cpp.o"
+  "CMakeFiles/cpp_help.dir/h_datatypes/h_datatypes.cpp.o"
   "cpp_help.pdb"
   "cpp_help"
 )

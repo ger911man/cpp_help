@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dtv/CLionProjects/cpp_help/h_datatypes/h_datatypes.cpp" "/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/cpp_help.dir/h_datatypes/h_datatypes.cpp.o"
-  "/home/dtv/CLionProjects/cpp_help/h_string/h_string.cpp" "/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/cpp_help.dir/h_string/h_string.cpp.o"
+  "/home/dtv/CLionProjects/cpp_help/h_datatypes/h_datatypes.cpp" "/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/h_.dir/h_datatypes/h_datatypes.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

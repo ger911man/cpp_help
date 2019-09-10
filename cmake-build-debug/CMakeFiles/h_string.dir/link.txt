@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/h_string.dir/h_string/h_string.cpp.o  -o h_string 

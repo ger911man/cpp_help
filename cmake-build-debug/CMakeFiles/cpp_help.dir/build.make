@@ -57,30 +57,45 @@ include CMakeFiles/cpp_help.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpp_help.dir/flags.make
 
-CMakeFiles/cpp_help.dir/main.cpp.o: CMakeFiles/cpp_help.dir/flags.make
-CMakeFiles/cpp_help.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp_help.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_help.dir/main.cpp.o -c /home/dtv/CLionProjects/cpp_help/main.cpp
+CMakeFiles/cpp_help.dir/h_string/h_string.cpp.o: CMakeFiles/cpp_help.dir/flags.make
+CMakeFiles/cpp_help.dir/h_string/h_string.cpp.o: ../h_string/h_string.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp_help.dir/h_string/h_string.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_help.dir/h_string/h_string.cpp.o -c /home/dtv/CLionProjects/cpp_help/h_string/h_string.cpp
 
-CMakeFiles/cpp_help.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_help.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtv/CLionProjects/cpp_help/main.cpp > CMakeFiles/cpp_help.dir/main.cpp.i
+CMakeFiles/cpp_help.dir/h_string/h_string.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_help.dir/h_string/h_string.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtv/CLionProjects/cpp_help/h_string/h_string.cpp > CMakeFiles/cpp_help.dir/h_string/h_string.cpp.i
 
-CMakeFiles/cpp_help.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_help.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtv/CLionProjects/cpp_help/main.cpp -o CMakeFiles/cpp_help.dir/main.cpp.s
+CMakeFiles/cpp_help.dir/h_string/h_string.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_help.dir/h_string/h_string.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtv/CLionProjects/cpp_help/h_string/h_string.cpp -o CMakeFiles/cpp_help.dir/h_string/h_string.cpp.s
+
+CMakeFiles/cpp_help.dir/h_datatypes/h_datatypes.cpp.o: CMakeFiles/cpp_help.dir/flags.make
+CMakeFiles/cpp_help.dir/h_datatypes/h_datatypes.cpp.o: ../h_datatypes/h_datatypes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp_help.dir/h_datatypes/h_datatypes.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_help.dir/h_datatypes/h_datatypes.cpp.o -c /home/dtv/CLionProjects/cpp_help/h_datatypes/h_datatypes.cpp
+
+CMakeFiles/cpp_help.dir/h_datatypes/h_datatypes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_help.dir/h_datatypes/h_datatypes.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtv/CLionProjects/cpp_help/h_datatypes/h_datatypes.cpp > CMakeFiles/cpp_help.dir/h_datatypes/h_datatypes.cpp.i
+
+CMakeFiles/cpp_help.dir/h_datatypes/h_datatypes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_help.dir/h_datatypes/h_datatypes.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtv/CLionProjects/cpp_help/h_datatypes/h_datatypes.cpp -o CMakeFiles/cpp_help.dir/h_datatypes/h_datatypes.cpp.s
 
 # Object files for target cpp_help
 cpp_help_OBJECTS = \
-"CMakeFiles/cpp_help.dir/main.cpp.o"
+"CMakeFiles/cpp_help.dir/h_string/h_string.cpp.o" \
+"CMakeFiles/cpp_help.dir/h_datatypes/h_datatypes.cpp.o"
 
 # External object files for target cpp_help
 cpp_help_EXTERNAL_OBJECTS =
 
-cpp_help: CMakeFiles/cpp_help.dir/main.cpp.o
+cpp_help: CMakeFiles/cpp_help.dir/h_string/h_string.cpp.o
+cpp_help: CMakeFiles/cpp_help.dir/h_datatypes/h_datatypes.cpp.o
 cpp_help: CMakeFiles/cpp_help.dir/build.make
 cpp_help: CMakeFiles/cpp_help.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp_help"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cpp_help"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp_help.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

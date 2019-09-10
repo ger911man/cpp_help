@@ -65,39 +65,113 @@ CMAKE_SOURCE_DIR = /home/dtv/CLionProjects/cpp_help
 CMAKE_BINARY_DIR = /home/dtv/CLionProjects/cpp_help/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/cpp_help.dir
+# Target rules for target CMakeFiles/h_colored_console_output.dir
 
 # All Build rule for target.
-CMakeFiles/cpp_help.dir/all:
-	$(MAKE) -f CMakeFiles/cpp_help.dir/build.make CMakeFiles/cpp_help.dir/depend
-	$(MAKE) -f CMakeFiles/cpp_help.dir/build.make CMakeFiles/cpp_help.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target cpp_help"
-.PHONY : CMakeFiles/cpp_help.dir/all
+CMakeFiles/h_colored_console_output.dir/all:
+	$(MAKE) -f CMakeFiles/h_colored_console_output.dir/build.make CMakeFiles/h_colored_console_output.dir/depend
+	$(MAKE) -f CMakeFiles/h_colored_console_output.dir/build.make CMakeFiles/h_colored_console_output.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target h_colored_console_output"
+.PHONY : CMakeFiles/h_colored_console_output.dir/all
 
 # Include target in all.
-all: CMakeFiles/cpp_help.dir/all
+all: CMakeFiles/h_colored_console_output.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cpp_help.dir/rule: cmake_check_build_system
+CMakeFiles/h_colored_console_output.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cpp_help.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/h_colored_console_output.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/cpp_help.dir/rule
+.PHONY : CMakeFiles/h_colored_console_output.dir/rule
 
 # Convenience name for target.
-cpp_help: CMakeFiles/cpp_help.dir/rule
+h_colored_console_output: CMakeFiles/h_colored_console_output.dir/rule
 
-.PHONY : cpp_help
-
-# clean rule for target.
-CMakeFiles/cpp_help.dir/clean:
-	$(MAKE) -f CMakeFiles/cpp_help.dir/build.make CMakeFiles/cpp_help.dir/clean
-.PHONY : CMakeFiles/cpp_help.dir/clean
+.PHONY : h_colored_console_output
 
 # clean rule for target.
-clean: CMakeFiles/cpp_help.dir/clean
+CMakeFiles/h_colored_console_output.dir/clean:
+	$(MAKE) -f CMakeFiles/h_colored_console_output.dir/build.make CMakeFiles/h_colored_console_output.dir/clean
+.PHONY : CMakeFiles/h_colored_console_output.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/h_colored_console_output.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/h_string.dir
+
+# All Build rule for target.
+CMakeFiles/h_string.dir/all:
+	$(MAKE) -f CMakeFiles/h_string.dir/build.make CMakeFiles/h_string.dir/depend
+	$(MAKE) -f CMakeFiles/h_string.dir/build.make CMakeFiles/h_string.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target h_string"
+.PHONY : CMakeFiles/h_string.dir/all
+
+# Include target in all.
+all: CMakeFiles/h_string.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/h_string.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/h_string.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/h_string.dir/rule
+
+# Convenience name for target.
+h_string: CMakeFiles/h_string.dir/rule
+
+.PHONY : h_string
+
+# clean rule for target.
+CMakeFiles/h_string.dir/clean:
+	$(MAKE) -f CMakeFiles/h_string.dir/build.make CMakeFiles/h_string.dir/clean
+.PHONY : CMakeFiles/h_string.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/h_string.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/h_datatypes.dir
+
+# All Build rule for target.
+CMakeFiles/h_datatypes.dir/all:
+	$(MAKE) -f CMakeFiles/h_datatypes.dir/build.make CMakeFiles/h_datatypes.dir/depend
+	$(MAKE) -f CMakeFiles/h_datatypes.dir/build.make CMakeFiles/h_datatypes.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target h_datatypes"
+.PHONY : CMakeFiles/h_datatypes.dir/all
+
+# Include target in all.
+all: CMakeFiles/h_datatypes.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/h_datatypes.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/h_datatypes.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/h_datatypes.dir/rule
+
+# Convenience name for target.
+h_datatypes: CMakeFiles/h_datatypes.dir/rule
+
+.PHONY : h_datatypes
+
+# clean rule for target.
+CMakeFiles/h_datatypes.dir/clean:
+	$(MAKE) -f CMakeFiles/h_datatypes.dir/build.make CMakeFiles/h_datatypes.dir/clean
+.PHONY : CMakeFiles/h_datatypes.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/h_datatypes.dir/clean
 
 .PHONY : clean
 

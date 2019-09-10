@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dtv/CLionProjects/cpp_help/h_datatypes/h_datatypes.cpp
+iostream
+/home/dtv/CLionProjects/cpp_help/h_datatypes/iostream
+

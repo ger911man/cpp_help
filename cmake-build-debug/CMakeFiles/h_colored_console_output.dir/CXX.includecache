@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dtv/CLionProjects/cpp_help/h_colored_console_output/cPrint.h
+iostream
+/home/dtv/CLionProjects/cpp_help/h_colored_console_output/iostream
+string
+/home/dtv/CLionProjects/cpp_help/h_colored_console_output/string
+
+/home/dtv/CLionProjects/cpp_help/h_colored_console_output/main.cpp
+iostream
+/home/dtv/CLionProjects/cpp_help/h_colored_console_output/iostream
+cPrint.h
+/home/dtv/CLionProjects/cpp_help/h_colored_console_output/cPrint.h
+

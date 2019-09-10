@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/cpp_help.dir/main.cpp.o  -o cpp_help 
+/usr/bin/c++  -g   CMakeFiles/cpp_help.dir/h_string/h_string.cpp.o CMakeFiles/cpp_help.dir/h_datatypes/h_datatypes.cpp.o  -o cpp_help 
