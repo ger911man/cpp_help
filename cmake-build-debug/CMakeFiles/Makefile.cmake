@@ -48,6 +48,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/h_class.dir/DependInfo.cmake"
   "CMakeFiles/h_colored_console_output.dir/DependInfo.cmake"
   "CMakeFiles/h_string.dir/DependInfo.cmake"
   "CMakeFiles/h_datatypes.dir/DependInfo.cmake"

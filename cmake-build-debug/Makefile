@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named h_class
+
+# Build rule for target.
+h_class: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 h_class
+.PHONY : h_class
+
+# fast build rule for target.
+h_class/fast:
+	$(MAKE) -f CMakeFiles/h_class.dir/build.make CMakeFiles/h_class.dir/build
+.PHONY : h_class/fast
+
+#=============================================================================
 # Target rules for targets named h_colored_console_output
 
 # Build rule for target.
@@ -148,6 +161,33 @@ h_datatypes: cmake_check_build_system
 h_datatypes/fast:
 	$(MAKE) -f CMakeFiles/h_datatypes.dir/build.make CMakeFiles/h_datatypes.dir/build
 .PHONY : h_datatypes/fast
+
+h_class/classTestMain.o: h_class/classTestMain.cpp.o
+
+.PHONY : h_class/classTestMain.o
+
+# target to build an object file
+h_class/classTestMain.cpp.o:
+	$(MAKE) -f CMakeFiles/h_class.dir/build.make CMakeFiles/h_class.dir/h_class/classTestMain.cpp.o
+.PHONY : h_class/classTestMain.cpp.o
+
+h_class/classTestMain.i: h_class/classTestMain.cpp.i
+
+.PHONY : h_class/classTestMain.i
+
+# target to preprocess a source file
+h_class/classTestMain.cpp.i:
+	$(MAKE) -f CMakeFiles/h_class.dir/build.make CMakeFiles/h_class.dir/h_class/classTestMain.cpp.i
+.PHONY : h_class/classTestMain.cpp.i
+
+h_class/classTestMain.s: h_class/classTestMain.cpp.s
+
+.PHONY : h_class/classTestMain.s
+
+# target to generate assembly for a file
+h_class/classTestMain.cpp.s:
+	$(MAKE) -f CMakeFiles/h_class.dir/build.make CMakeFiles/h_class.dir/h_class/classTestMain.cpp.s
+.PHONY : h_class/classTestMain.cpp.s
 
 h_colored_console_output/main.o: h_colored_console_output/main.cpp.o
 
@@ -237,10 +277,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... h_class"
 	@echo "... h_colored_console_output"
 	@echo "... rebuild_cache"
 	@echo "... h_string"
 	@echo "... h_datatypes"
+	@echo "... h_class/classTestMain.o"
+	@echo "... h_class/classTestMain.i"
+	@echo "... h_class/classTestMain.s"
 	@echo "... h_colored_console_output/main.o"
 	@echo "... h_colored_console_output/main.i"
 	@echo "... h_colored_console_output/main.s"

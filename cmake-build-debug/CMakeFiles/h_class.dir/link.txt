@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/h_class.dir/h_class/classTestMain.cpp.o  -o h_class 
