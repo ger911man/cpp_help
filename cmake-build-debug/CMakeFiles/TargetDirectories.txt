@@ -1,0 +1,3 @@
+/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/cpp_help.dir
+/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/edit_cache.dir
