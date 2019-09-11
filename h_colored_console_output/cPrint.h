@@ -35,7 +35,6 @@ using namespace std;
 //inverse off      27
 
 /* FOREGROUND */
-#define NOCOLOR "\033[0m"
 #define FGBLACK  "\x1B[30m"
 #define FGRED  "\x1B[31m"
 #define FGGREEN  "\x1B[32m"
@@ -47,7 +46,7 @@ using namespace std;
 
 /* BACKGROUND */
 #define BGBLACK "\x1B[40m"
-#define BGBLACK "\x1B[41m"
+#define BGRED "\x1B[41m"
 #define BGGREEN "\x1B[42m"
 #define BGYELLOW "\x1B[43m"
 #define BGBLUE "\x1B[44m"
@@ -56,6 +55,7 @@ using namespace std;
 #define BGWHITE "\x1B[47m"
 
 /* TEXT STYLE */
+#define TSRESET "\033[0m"
 #define TSBOLD "\x1B[1m"
 #define TSUNDERLINE "\x1B[4m"
 #define TSINVERSE = "\x1B[7m"
@@ -91,15 +91,15 @@ namespace colorPrint {
 
 
     void cPrint(ColorCode foreground, ColorCode background, ColorCode textStyle, string s) {
-        cout << "\033[" << foreground << ";" << background << ";" << textStyle << "m" << s << NOCOLOR;
+        cout << "\033[" << foreground << ";" << background << ";" << textStyle << "m" << s << TSRESET;
     }
 
     void cPrint(ColorCode foreground, ColorCode background, string s) {
-        cout << "\033[" << foreground << ";" << background << "m" << s << NOCOLOR;
+        cout << "\033[" << foreground << ";" << background << "m" << s << TSRESET;
     }
 
     void cPrint(ColorCode foreground, string s) {
-        cout << "\033[" << foreground << "m" << s << NOCOLOR;
+        cout << "\033[" << foreground << "m" << s << TSRESET;
     }
 
     void cPrintln(ColorCode foreground, ColorCode background, ColorCode textStyle, string s) {
