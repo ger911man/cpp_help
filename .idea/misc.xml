@@ -3,8 +3,10 @@
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
   <component name="CidrRootsConfiguration">
     <sourceRoots>
+      <file path="$PROJECT_DIR$/h_class" />
       <file path="$PROJECT_DIR$/h_colored_console_output" />
       <file path="$PROJECT_DIR$/h_datatypes" />
+      <file path="$PROJECT_DIR$/h_list" />
       <file path="$PROJECT_DIR$/h_string" />
     </sourceRoots>
   </component>

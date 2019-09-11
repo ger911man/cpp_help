@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/h_list.dir/h_list/listStructMain.cpp.o  -o h_list 

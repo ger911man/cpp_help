@@ -1,6 +1,7 @@
-/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/h_class.dir
-/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/h_colored_console_output.dir
 /home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/h_string.dir
 /home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/h_datatypes.dir
+/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/h_string.dir
+/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/h_list.dir
+/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/h_colored_console_output.dir
+/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/h_class.dir
+/home/dtv/CLionProjects/cpp_help/cmake-build-debug/CMakeFiles/edit_cache.dir

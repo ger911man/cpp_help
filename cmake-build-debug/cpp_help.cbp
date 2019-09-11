@@ -17,147 +17,11 @@
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="h_class">
-				<Option output="/home/dtv/CLionProjects/cpp_help/cmake-build-debug/h_class" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 h_class"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="h_class/fast">
-				<Option output="/home/dtv/CLionProjects/cpp_help/cmake-build-debug/h_class" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 h_class/fast"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="h_colored_console_output">
-				<Option output="/home/dtv/CLionProjects/cpp_help/cmake-build-debug/h_colored_console_output" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 h_colored_console_output"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="h_colored_console_output/fast">
-				<Option output="/home/dtv/CLionProjects/cpp_help/cmake-build-debug/h_colored_console_output" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 h_colored_console_output/fast"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="h_string">
-				<Option output="/home/dtv/CLionProjects/cpp_help/cmake-build-debug/h_string" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 h_string"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="h_string/fast">
-				<Option output="/home/dtv/CLionProjects/cpp_help/cmake-build-debug/h_string" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 h_string/fast"/>
 					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -205,6 +69,184 @@
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="h_string">
+				<Option output="/home/dtv/CLionProjects/cpp_help/cmake-build-debug/h_string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 h_string"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="h_string/fast">
+				<Option output="/home/dtv/CLionProjects/cpp_help/cmake-build-debug/h_string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 h_string/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="h_list">
+				<Option output="/home/dtv/CLionProjects/cpp_help/cmake-build-debug/h_list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 h_list"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="h_list/fast">
+				<Option output="/home/dtv/CLionProjects/cpp_help/cmake-build-debug/h_list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 h_list/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="h_colored_console_output">
+				<Option output="/home/dtv/CLionProjects/cpp_help/cmake-build-debug/h_colored_console_output" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 h_colored_console_output"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="h_colored_console_output/fast">
+				<Option output="/home/dtv/CLionProjects/cpp_help/cmake-build-debug/h_colored_console_output" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 h_colored_console_output/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="h_class">
+				<Option output="/home/dtv/CLionProjects/cpp_help/cmake-build-debug/h_class" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 h_class"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="h_class/fast">
+				<Option output="/home/dtv/CLionProjects/cpp_help/cmake-build-debug/h_class" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 h_class/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dtv/CLionProjects/cpp_help/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dtv/CLionProjects/cpp_help/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/dtv/CLionProjects/cpp_help/h_class/classTestMain.cpp">
 			<Option target="h_class"/>
@@ -214,6 +256,9 @@
 		</Unit>
 		<Unit filename="/home/dtv/CLionProjects/cpp_help/h_datatypes/h_datatypes.cpp">
 			<Option target="h_datatypes"/>
+		</Unit>
+		<Unit filename="/home/dtv/CLionProjects/cpp_help/h_list/listStructMain.cpp">
+			<Option target="h_list"/>
 		</Unit>
 		<Unit filename="/home/dtv/CLionProjects/cpp_help/h_string/h_string.cpp">
 			<Option target="h_string"/>

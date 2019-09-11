@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/dtv/CLionProjects/cpp_help/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/dtv/clion-2019.1.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/dtv/clion-2019.1.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,30 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named h_class
+# Target rules for targets named h_datatypes
 
 # Build rule for target.
-h_class: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 h_class
-.PHONY : h_class
+h_datatypes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 h_datatypes
+.PHONY : h_datatypes
 
 # fast build rule for target.
-h_class/fast:
-	$(MAKE) -f CMakeFiles/h_class.dir/build.make CMakeFiles/h_class.dir/build
-.PHONY : h_class/fast
-
-#=============================================================================
-# Target rules for targets named h_colored_console_output
-
-# Build rule for target.
-h_colored_console_output: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 h_colored_console_output
-.PHONY : h_colored_console_output
-
-# fast build rule for target.
-h_colored_console_output/fast:
-	$(MAKE) -f CMakeFiles/h_colored_console_output.dir/build.make CMakeFiles/h_colored_console_output.dir/build
-.PHONY : h_colored_console_output/fast
+h_datatypes/fast:
+	$(MAKE) -f CMakeFiles/h_datatypes.dir/build.make CMakeFiles/h_datatypes.dir/build
+.PHONY : h_datatypes/fast
 
 #=============================================================================
 # Target rules for targets named h_string
@@ -150,17 +137,43 @@ h_string/fast:
 .PHONY : h_string/fast
 
 #=============================================================================
-# Target rules for targets named h_datatypes
+# Target rules for targets named h_list
 
 # Build rule for target.
-h_datatypes: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 h_datatypes
-.PHONY : h_datatypes
+h_list: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 h_list
+.PHONY : h_list
 
 # fast build rule for target.
-h_datatypes/fast:
-	$(MAKE) -f CMakeFiles/h_datatypes.dir/build.make CMakeFiles/h_datatypes.dir/build
-.PHONY : h_datatypes/fast
+h_list/fast:
+	$(MAKE) -f CMakeFiles/h_list.dir/build.make CMakeFiles/h_list.dir/build
+.PHONY : h_list/fast
+
+#=============================================================================
+# Target rules for targets named h_colored_console_output
+
+# Build rule for target.
+h_colored_console_output: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 h_colored_console_output
+.PHONY : h_colored_console_output
+
+# fast build rule for target.
+h_colored_console_output/fast:
+	$(MAKE) -f CMakeFiles/h_colored_console_output.dir/build.make CMakeFiles/h_colored_console_output.dir/build
+.PHONY : h_colored_console_output/fast
+
+#=============================================================================
+# Target rules for targets named h_class
+
+# Build rule for target.
+h_class: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 h_class
+.PHONY : h_class
+
+# fast build rule for target.
+h_class/fast:
+	$(MAKE) -f CMakeFiles/h_class.dir/build.make CMakeFiles/h_class.dir/build
+.PHONY : h_class/fast
 
 h_class/classTestMain.o: h_class/classTestMain.cpp.o
 
@@ -243,6 +256,33 @@ h_datatypes/h_datatypes.cpp.s:
 	$(MAKE) -f CMakeFiles/h_datatypes.dir/build.make CMakeFiles/h_datatypes.dir/h_datatypes/h_datatypes.cpp.s
 .PHONY : h_datatypes/h_datatypes.cpp.s
 
+h_list/listStructMain.o: h_list/listStructMain.cpp.o
+
+.PHONY : h_list/listStructMain.o
+
+# target to build an object file
+h_list/listStructMain.cpp.o:
+	$(MAKE) -f CMakeFiles/h_list.dir/build.make CMakeFiles/h_list.dir/h_list/listStructMain.cpp.o
+.PHONY : h_list/listStructMain.cpp.o
+
+h_list/listStructMain.i: h_list/listStructMain.cpp.i
+
+.PHONY : h_list/listStructMain.i
+
+# target to preprocess a source file
+h_list/listStructMain.cpp.i:
+	$(MAKE) -f CMakeFiles/h_list.dir/build.make CMakeFiles/h_list.dir/h_list/listStructMain.cpp.i
+.PHONY : h_list/listStructMain.cpp.i
+
+h_list/listStructMain.s: h_list/listStructMain.cpp.s
+
+.PHONY : h_list/listStructMain.s
+
+# target to generate assembly for a file
+h_list/listStructMain.cpp.s:
+	$(MAKE) -f CMakeFiles/h_list.dir/build.make CMakeFiles/h_list.dir/h_list/listStructMain.cpp.s
+.PHONY : h_list/listStructMain.cpp.s
+
 h_string/h_string.o: h_string/h_string.cpp.o
 
 .PHONY : h_string/h_string.o
@@ -276,12 +316,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... h_class"
-	@echo "... h_colored_console_output"
 	@echo "... rebuild_cache"
-	@echo "... h_string"
 	@echo "... h_datatypes"
+	@echo "... h_string"
+	@echo "... h_list"
+	@echo "... h_colored_console_output"
+	@echo "... h_class"
+	@echo "... edit_cache"
 	@echo "... h_class/classTestMain.o"
 	@echo "... h_class/classTestMain.i"
 	@echo "... h_class/classTestMain.s"
@@ -291,6 +332,9 @@ help:
 	@echo "... h_datatypes/h_datatypes.o"
 	@echo "... h_datatypes/h_datatypes.i"
 	@echo "... h_datatypes/h_datatypes.s"
+	@echo "... h_list/listStructMain.o"
+	@echo "... h_list/listStructMain.i"
+	@echo "... h_list/listStructMain.s"
 	@echo "... h_string/h_string.o"
 	@echo "... h_string/h_string.i"
 	@echo "... h_string/h_string.s"
