@@ -150,6 +150,19 @@ h_list/fast:
 .PHONY : h_list/fast
 
 #=============================================================================
+# Target rules for targets named h_calculations
+
+# Build rule for target.
+h_calculations: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 h_calculations
+.PHONY : h_calculations
+
+# fast build rule for target.
+h_calculations/fast:
+	$(MAKE) -f CMakeFiles/h_calculations.dir/build.make CMakeFiles/h_calculations.dir/build
+.PHONY : h_calculations/fast
+
+#=============================================================================
 # Target rules for targets named h_colored_console_output
 
 # Build rule for target.
@@ -174,6 +187,33 @@ h_class: cmake_check_build_system
 h_class/fast:
 	$(MAKE) -f CMakeFiles/h_class.dir/build.make CMakeFiles/h_class.dir/build
 .PHONY : h_class/fast
+
+h_calculations/calculations.o: h_calculations/calculations.cpp.o
+
+.PHONY : h_calculations/calculations.o
+
+# target to build an object file
+h_calculations/calculations.cpp.o:
+	$(MAKE) -f CMakeFiles/h_calculations.dir/build.make CMakeFiles/h_calculations.dir/h_calculations/calculations.cpp.o
+.PHONY : h_calculations/calculations.cpp.o
+
+h_calculations/calculations.i: h_calculations/calculations.cpp.i
+
+.PHONY : h_calculations/calculations.i
+
+# target to preprocess a source file
+h_calculations/calculations.cpp.i:
+	$(MAKE) -f CMakeFiles/h_calculations.dir/build.make CMakeFiles/h_calculations.dir/h_calculations/calculations.cpp.i
+.PHONY : h_calculations/calculations.cpp.i
+
+h_calculations/calculations.s: h_calculations/calculations.cpp.s
+
+.PHONY : h_calculations/calculations.s
+
+# target to generate assembly for a file
+h_calculations/calculations.cpp.s:
+	$(MAKE) -f CMakeFiles/h_calculations.dir/build.make CMakeFiles/h_calculations.dir/h_calculations/calculations.cpp.s
+.PHONY : h_calculations/calculations.cpp.s
 
 h_class/classTestMain.o: h_class/classTestMain.cpp.o
 
@@ -320,9 +360,13 @@ help:
 	@echo "... h_datatypes"
 	@echo "... h_string"
 	@echo "... h_list"
+	@echo "... h_calculations"
 	@echo "... h_colored_console_output"
-	@echo "... h_class"
 	@echo "... edit_cache"
+	@echo "... h_class"
+	@echo "... h_calculations/calculations.o"
+	@echo "... h_calculations/calculations.i"
+	@echo "... h_calculations/calculations.s"
 	@echo "... h_class/classTestMain.o"
 	@echo "... h_class/classTestMain.i"
 	@echo "... h_class/classTestMain.s"

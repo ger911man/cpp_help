@@ -2,11 +2,12 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="cpp_help" targetName="h_class" />
+      <config projectName="cpp_help" targetName="h_calculations" />
+      <config projectName="cpp_help" targetName="h_string" />
+      <config projectName="cpp_help" targetName="h_list" />
       <config projectName="cpp_help" targetName="h_colored_console_output" />
       <config projectName="cpp_help" targetName="h_datatypes" />
-      <config projectName="cpp_help" targetName="h_string" />
-      <config projectName="cpp_help" targetName="h_class" />
-      <config projectName="cpp_help" targetName="h_list" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -16,19 +17,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e2e7ed5-dce7-41a2-afb8-ab62300015d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h_calculations/calculations.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/h_class.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/h_class.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/h_colored_console_output.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/h_colored_console_output.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/h_datatypes.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/h_datatypes.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/h_list.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/h_list.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/h_string.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/h_string.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cpp_help.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cpp_help.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/h_datatypes" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/h_datatypes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h_txt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/h_txt.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +66,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.h_datatypes">
+  <component name="RunManager" selected="CMake Application.h_calculations">
+    <configuration name="h_calculations" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_help" TARGET_NAME="h_calculations" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_help" RUN_TARGET_NAME="h_calculations">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="h_class" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_help" TARGET_NAME="h_class" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_help" RUN_TARGET_NAME="h_class">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -91,6 +98,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.h_calculations" />
       <item itemvalue="CMake Application.h_class" />
       <item itemvalue="CMake Application.h_colored_console_output" />
       <item itemvalue="CMake Application.h_datatypes" />
@@ -118,6 +126,8 @@
       <workItem from="1568188465773" duration="72000" />
       <workItem from="1568212031399" duration="597000" />
       <workItem from="1568213660331" duration="1939000" />
+      <workItem from="1568460142528" duration="1220000" />
+      <workItem from="1580157182981" duration="1780000" />
     </task>
     <servers />
   </component>
